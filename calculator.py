@@ -2,6 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.title("Calculator")
+window.resizable(False,False)
 #window.geometry('300x400')
 #text = entry1.get()
 #label1 = Label(window,text='1',font=(16),relief='solid').place(x=50,y=100)
