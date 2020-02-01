@@ -77,7 +77,7 @@ button3 = Button(window,text='3',padx=20,pady=10,font=40,command=lambda: btn_cli
 button2 = Button(window,text='2',padx=20,pady=10,font=40,command=lambda: btn_click(2)).grid(row=3,column=1)
 button1 = Button(window,text='1',padx=20,pady=10,font=40,command=lambda: btn_click(1)).grid(row=3,column=0)
 button0 = Button(window,text='0',padx=20,pady=10,font=40,command=lambda: btn_click(0)).grid(row=4,column=1)
-button_clear = Button(window,text='C',padx=20,pady=10,font=40,command=btn_clear).grid(row=4,column=0)
+button_clear = Button(window,text='CE',padx=20,pady=10,font=40,command=btn_clear).grid(row=4,column=0)
 button_enter = Button(window,text='=',padx=19,pady=10,font=40,command=btn_equal).grid(row=4,column=2)
 button_add = Button(window,text='+',padx=19,pady=10,font=40,command=btn_add).grid(row=4,column=3)
 button_minus = Button(window,text='-',padx=19,pady=10,font=40,command=btn_sub).grid(row=3,column=3)
